@@ -19,7 +19,10 @@ function App() {
         <HeaderSection />
       </div>
 
-      <BodySection />
+
+      <div className="my-5 mx-3">
+        <BodySection />
+      </div>
 
       <FooterSection />
     </div>

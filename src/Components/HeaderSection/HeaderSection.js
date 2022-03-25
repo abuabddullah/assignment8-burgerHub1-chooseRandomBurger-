@@ -1,7 +1,7 @@
 import './HeaderSection.css';
 
 import React from 'react';
-import { FaCalculator, FaHamburger } from 'react-icons/fa';
+import { FaHamburger } from 'react-icons/fa';
 
 const HeaderSection = () => {
     return (
