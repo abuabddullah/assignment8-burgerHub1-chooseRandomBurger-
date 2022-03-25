@@ -22,7 +22,7 @@ const SingleBurgerCard = ({ burger,clickToAddCart }) => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button onClick={() => clickToAddCart(burger)} className='w-100 fw-bold' variant="outline-info">Add to Cart <FaCartArrowDown /></Button>
+                        <Button onClick={() => clickToAddCart(burger)} className='w-100 fw-bold' variant="outline-warning">Add to Cart <FaCartArrowDown /></Button>
                     </Card.Footer>
                 </Card>
             </Col>
