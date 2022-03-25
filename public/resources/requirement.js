@@ -3,10 +3,15 @@ submit : live code link and private repo link
 
 compulsory requirements:
 1) give a unique Name of website
+-done
 2) website can not be related to dressing up
+-done
 3) right side cardsSection and left side cartsSection
+-done
 3) manage pics related to your website try to make same size
+-done
 4) create a fake data of 9 - 12 elements  : [module 47_5-3]
+-done
                     - use manula array of Object or
                     - by getjason add in public folder of a .jason File
                                     ***but eache item must have,
@@ -15,7 +20,9 @@ compulsory requirements:
                                                 => price
                                                 => pic
 5) no warning in console allowed like, key using warning
+-done
 6) use cart icon in the card
+-done
                     - use fa or
                     - react icons or
                     -hero icon

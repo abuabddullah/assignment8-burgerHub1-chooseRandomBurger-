@@ -1,0 +1,7 @@
+.cartSectionHolder{
+    height: 80vh;
+    position : sticky;
+    top : 165px;
+    overflow: hidden;
+    overflow-y: scroll;
+}

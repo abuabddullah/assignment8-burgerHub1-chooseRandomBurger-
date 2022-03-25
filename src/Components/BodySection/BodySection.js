@@ -2,6 +2,7 @@ import './BodySection.css'
 
 import React, { useState } from 'react';
 import DisplaySection from '../DisplaySection/DisplaySection';
+import CartSection from '../CartSection/CartSection';
 
 const BodySection = () => {
 
@@ -12,7 +13,7 @@ const BodySection = () => {
         setCarts(newCarts);
     }
 
-console.log(carts);
+// console.log(carts);
 
     return (
         <div className="row">
@@ -20,8 +21,10 @@ console.log(carts);
             <div className="col-md-9">
                 <DisplaySection clickToAddCart = {clickToAddCart} />
             </div>
-            <div className="col-md-3 mt-5 mt-md-0">
-                <h1>tis is CartSection</h1>
+            <div className="col-md-3 mt-5 mt-md-0 p-4 bg-warning cartSectionHolder">
+                <h3 className='text-center'>Your Carts !!</h3>
+                <p className=' mb-4 text-center'>Selected Items : {carts.length}</p>
+                <CartSection carts ={carts}/>
             </div>
 
         </div>
