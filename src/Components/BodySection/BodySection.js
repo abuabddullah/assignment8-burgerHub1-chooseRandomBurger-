@@ -25,8 +25,6 @@ const BodySection = () => {
         }
 
 
-        // let newCarts = [...carts, burger];
-        // setCarts(newCarts);
     }
 
 
@@ -45,6 +43,23 @@ const BodySection = () => {
         setCarts([]);
     }
 
+
+
+    // random choose alert suggesstion
+    const getRandomItem = () => {
+        if (carts.length) {
+            let randomIndex = Math.floor(Math.random() * carts.length);
+            let randomItem = carts[randomIndex];
+            alert(`You should try "${randomItem.name}" Only for ${randomItem.price}`);
+            return
+        } else  {
+            alert('You have no item in your cart');
+            return
+        }
+        
+    }
+
+
     return (
         <div className="row">
 
@@ -56,7 +71,11 @@ const BodySection = () => {
                 <p className=' mb-4'>Selected Items : {carts.length}</p>
                 <CartSection carts={carts} removeFromCart={removeFromCart} />
                 <div className='mt-4'>
-                    
+
+                    <p>
+                        <Button onClick={getRandomItem} variant="outline-dark">Choose 1 for me</Button>
+                    </p>
+
                     <p>
                         <Button onClick={removeAllFromCart} variant="outline-dark">Choose Again</Button>
                     </p>
