@@ -3,5 +3,5 @@
     position : sticky;
     top : 165px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
