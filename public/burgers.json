@@ -1,0 +1,74 @@
+[
+    {
+      "id": "623e08f042e39aaf4bad3cf2",
+      "name": "Lentil and Mushroom Burger",
+      "picture": "./resources/images/b1.jpg",
+      "price": 939
+    },
+    {
+      "id": "623e08f019b1097d3fef3b20",
+      "name": "Stuffed Bean Burger",
+      "picture": "./resources/images/b2.jpg",
+      "price": 973
+    },
+    {
+      "id": "623e08f0fb33001349608662",
+      "name": "Lamb Burger with Radish Slaw.",
+      "picture": "./resources/images/b3.jpg",
+      "price": 489
+    },
+    {
+      "id": "623e08f02168640148e7f39a",
+      "name": "Potato Corn Burger",
+      "picture": "./resources/images/b4.jpg",
+      "price": 468
+    },
+    {
+      "id": "623e08f0c43257ecebe8d4c8",
+      "name": "Supreme Veggie Burger",
+      "picture": "./resources/images/b5.jpg",
+      "price": 503
+    },
+    {
+      "id": "623e08f0b4967918912bb1a8",
+      "name": "Butter Chicken Twin Burgers",
+      "picture": "./resources/images/b6.jpg",
+      "price": 187
+    },
+    {
+      "id": "623e08f08b2ad97cc49c12ad",
+      "name": "Rajma Patty Burger",
+      "picture": "./resources/images/b7.jpg",
+      "price": 759
+    },
+    {
+      "id": "623e08f0cd3f0f03d1b74026",
+      "name": "Pizza Burger",
+      "picture": "./resources/images/b8.jpg",
+      "price": 186
+    },
+    {
+      "id": "623e08f06816a38eb82727cf",
+      "name": "Chilli burger With Pepper Relish",
+      "picture": "./resources/images/b9.jpg",
+      "price": 686
+    },
+    {
+      "id": "623e08f0083f212bba575f2a",
+      "name": "Perfect Lamb Satay Burger",
+      "picture": "./resources/images/b10.jpg",
+      "price": 269
+    },
+    {
+      "id": "623e08f000f4c7a68a061bf4",
+      "name": " Lamb and Tomato Stuffed Burger",
+      "picture": "./resources/images/b11.jpg",
+      "price": 973
+    },
+    {
+      "id": "623e08f03afbba02f98e2e4c",
+      "name": "Crunchy Chicken and Fish Burger",
+      "picture": "./resources/images/b12.jpg",
+      "price": 247
+    }
+  ]
