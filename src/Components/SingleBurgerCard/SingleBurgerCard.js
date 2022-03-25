@@ -2,16 +2,18 @@ import './SingleBurgerCard.css';
 
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
-import { FaCartArrowDown, FaHamburger } from 'react-icons/fa';
+import { FaCartArrowDown } from 'react-icons/fa';
 
-const SingleBurgerCard = ({ burger }) => {
+const SingleBurgerCard = ({ burger,clickToAddCart }) => {
     const { name, price, picture } = burger;
     // console.log(burger);
+
+
     return (
         <div>
 
             <Col>
-                <Card>
+                <Card className='shadow'>
                     <Card.Img className='img-fluid' variant="top" src={picture} />
                     <Card.Body>
                         <Card.Title className='h50px'>{name}</Card.Title>
@@ -20,7 +22,7 @@ const SingleBurgerCard = ({ burger }) => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button className='w-100 fw-bold' variant="outline-info">Add to Cart <FaCartArrowDown /></Button>
+                        <Button onClick={() => clickToAddCart(burger)} className='w-100 fw-bold' variant="outline-info">Add to Cart <FaCartArrowDown /></Button>
                     </Card.Footer>
                 </Card>
             </Col>

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import {Row} from 'react-bootstrap';
 import SingleBurgerCard from '../SingleBurgerCard/SingleBurgerCard';
 
-const DisplaySection = () => {
+const DisplaySection = ({clickToAddCart}) => {
 
     // loading and setting data from json file by useState and useEffect
     const [burgers, setBurgers] = useState([]);
@@ -21,7 +21,7 @@ const DisplaySection = () => {
             <Row xs={1} md={2} lg={3} className="g-4">
 
             {
-                burgers.map(burger => <SingleBurgerCard key={burger.id} burger = {burger}/>)
+                burgers.map(burger => <SingleBurgerCard clickToAddCart = {clickToAddCart} key={burger.id} burger = {burger}/>)
             }
             
             </Row>
