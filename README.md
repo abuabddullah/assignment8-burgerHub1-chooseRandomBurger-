@@ -65,9 +65,12 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
                     - choose again : clicking this will clear the elements in the cart section \
 **_5) add 3 questions answer as the foote of projects [maximum 10 line]_** \
 [ NOT DONE ] \
-                    -How reacts work : [module 47-7] && [last conceptual session]
-                    - props vs state
-                    -How use state works : [module 47-4]
+                    -**How reacts work : [module 47-7] && [last conceptual session]** \
+                    [ NOT DONE ] \
+                    -**props vs state** \
+                    [ NOT DONE ] \
+                    -**How use state works** : [module 47-4]
+                    [ NOT DONE ] 
                     
 
 
