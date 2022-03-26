@@ -39,25 +39,59 @@ const BodySection = () => {
 
 
     // remove all from cart
-    const removeAllFromCart = () => {
-        setCarts([]);
+    const removeAllFromCart = (suggesstHoldingTag) => {
+        setCarts([]);        
+        suggesstHoldingTag.innerHTML = '';
     }
 
 
 
-    // random choose alert suggesstion
-    const getRandomItem = () => {
+
+
+
+    // random choose suggesstion in UI
+
+    const getRandomItem = (suggesstHoldingTag) => {
         if (carts.length) {
             let randomIndex = Math.floor(Math.random() * carts.length);
             let randomItem = carts[randomIndex];
-            alert(`You should try "${randomItem.name}" Only for ${randomItem.price}`);
+
+            suggesstHoldingTag.innerHTML = '';
+            suggesstHoldingTag.innerHTML = `
+                <div class='mt-4 bg-white p-3 rounded-3'>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>${randomItem.name}</Card.Title>
+                            <h3><small>Price : </small>${randomItem.price}</h3>
+                        </Card.Body>
+                    </Card>  
+                </div>          
+            `;
+
+
+
+            // alert(`You should try "${randomItem.name}" Only for ${randomItem.price}`);
             return
-        } else  {
+        } else {
             alert('You have no item in your cart');
             return
         }
-        
+
     }
+
+
+
+
+
+
+
+
+
+
+    // _______________Experiment_____________________
+
+
+
 
 
     return (
@@ -73,12 +107,15 @@ const BodySection = () => {
                 <div className='mt-4'>
 
                     <p>
-                        <Button onClick={getRandomItem} variant="outline-dark">Choose 1 for me</Button>
+                        <Button onClick={() => getRandomItem(document.getElementById('suggesst'))} variant="outline-dark">Choose 1 for me</Button>
                     </p>
 
                     <p>
-                        <Button onClick={removeAllFromCart} variant="outline-dark">Choose Again</Button>
+                        <Button onClick={() => removeAllFromCart(document.getElementById('suggesst'))} variant="outline-dark">Choose Again</Button>
                     </p>
+                    <div id="suggesst" >
+
+                    </div>
                 </div>
             </div>
 
