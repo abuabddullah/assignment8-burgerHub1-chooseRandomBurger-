@@ -35,7 +35,7 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 **_8) website must be responsive_** \
 [ DONE ] \
                     - for mobile 1 col per row
-                    - for mobile 3 col per row /
+                    - for mobile 3 col per row \
 **_9) Clicking "Add to cart" will show Name in the cartSection_** \
 [ DONE ] \
 **_10) in cart section there will be 2 button_** \
