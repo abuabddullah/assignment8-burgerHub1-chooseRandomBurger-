@@ -40,7 +40,7 @@ const BodySection = () => {
 
     // remove all from cart
     const removeAllFromCart = (suggesstHoldingTag) => {
-        setCarts([]);        
+        setCarts([]);
         suggesstHoldingTag.innerHTML = '';
     }
 
@@ -80,15 +80,6 @@ const BodySection = () => {
     }
 
 
-
-
-
-
-
-
-
-
-    // _______________Experiment_____________________
 
 
 
