@@ -36,9 +36,9 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 [ DONE ] \
                     - for mobile 1 col / row
                     - for mobile 3 col / row
-**_9) Clicking "Add to cart" will show Name in the cartSection _** \
+**_9) Clicking "Add to cart" will show Name in the cartSection_** \
 [ DONE ] \
-**_10) in cart section there will be 2 button _** \
+**_10) in cart section there will be 2 button_** \
 [ DONE ] \
                     - choose 1 for me : clicking this will generate a random number 1-cart.length and notify me "use this No. product"
 **_11) folder structure must be good_** \
@@ -46,7 +46,7 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 **_12) Component Name must be meaning full_** \
 [ DONE ] \
 **_13) Components must be organised_** \
-[ DONE ] \
+[ DONE ] 
 
 
 
@@ -60,7 +60,7 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 [ DONE ] \
                     - give repo Name as title
                     - put live website link in the description
-**_4) in cart section there will be another button _** \
+**_4) in cart section there will be another button_** \
 [ DONE ] \
                     - choose again : clicking this will clear the elements in the cart section 
 **_5) add 3 questions answer as the foote of projects [maximum 10 line]_** \
@@ -73,17 +73,17 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 
 
 #### [#] Optional requirements:
-**_1) use any css frame work _** \
+**_1) use any css frame work_** \
 [ DONE ] \
             -bs5 or
             -tailwind
-**_2) in cartSection generate a delete button for each elements and enable it _** \
+**_2) in cartSection generate a delete button for each elements and enable it_** \
 [ DONE ] \
 **_3) local storage activities_** \
 [ NOT DONE ] \
 **_4) summuraize of projects in the description of readme.md file_** \
 [ NOT DONE ] \
-**_5) double clicking on the same cart will give alert and wont re add item in the cart _** \
+**_5) double clicking on the same cart will give alert and wont re add item in the cart_** \
 [ DONE ] \
-**_6) in the cart more than 4 item is not allowed and will give alert in modal _** \
+**_6) in the cart more than 4 item is not allowed and will give alert in modal_** \
 [ NOT DONE ] \
