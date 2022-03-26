@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import DisplaySection from '../DisplaySection/DisplaySection';
 import CartSection from '../CartSection/CartSection';
 import { Button } from 'react-bootstrap';
-import RandomChooseModal from '../RandomChooseModal/RandomChooseModal';
 
 const BodySection = () => {
 
@@ -28,21 +27,7 @@ const BodySection = () => {
     }
 
 
-    // // remove one by one per cllick from cart
-    // const removeFromCart = (item) => {
-    //     // console.log(item);
-    //     let newCarts = [...carts];
-    //     let index = newCarts.indexOf(item);
-    //     newCarts.splice(index, 1);
-    //     setCarts(newCarts);
-    // }
-
-
-
-
-
-
-    // remove one by one per cllick from cart
+    // remove one by one per cllick from cart and remove suggestion when cart is empty
     const removeFromCart = (item,suggesst) => {
         // console.log(item);
         let newCarts = [...carts];
@@ -55,10 +40,6 @@ const BodySection = () => {
         suggesstHoldingTag.innerHTML = '';
         }
     }
-
-
-
-
 
 
     // remove all from cart
