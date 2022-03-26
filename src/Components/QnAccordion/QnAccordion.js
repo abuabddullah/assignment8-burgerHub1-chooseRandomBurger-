@@ -54,10 +54,10 @@ const QnAccordion = () => {
                         </p>
 
                         <p>
-                            And then we can use the  updated <strong>state variable</strong> for next process
+                            And then we can use the  updated <strong>state variable</strong> for next process.
                         </p>
 
-                        <p className='text-center'><code>useState is essential to import from 'react'</code></p>
+                        <p className='text-center'><code>For useState its essential to import from 'react'</code></p>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
