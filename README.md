@@ -7,7 +7,7 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 
 ## Projects requirements
 
-#### [#] compulsory requirements:
+### [#] compulsory requirements:
 **_1) Give a unique Name for website_** \
 [ DONE ] \
 **_2) website can not be related to dressing up_** \
@@ -31,16 +31,16 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 [ DONE ] \
                     - use fa or
                     - react icons or
-                    -hero icon
+                    -hero icon \
 **_8) website must be responsive_** \
 [ DONE ] \
                     - for mobile 1 col / row
-                    - for mobile 3 col / row
+                    - for mobile 3 col / row /
 **_9) Clicking "Add to cart" will show Name in the cartSection_** \
 [ DONE ] \
 **_10) in cart section there will be 2 button_** \
 [ DONE ] \
-                    - choose 1 for me : clicking this will generate a random number 1-cart.length and notify me "use this No. product"
+                    - choose 1 for me : clicking this will generate a random number 1-cart.length and notify me "use this No. product" \
 **_11) folder structure must be good_** \
 [ DONE ] \
 **_12) Component Name must be meaning full_** \
@@ -51,7 +51,7 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 
 
 
-#### [#] bonous requirements:
+### [#] bonous requirements:
 **_1) destructing of props must use_** \
 [ DONE ] \
 **_2) minimum 6 commits required_** \
@@ -59,10 +59,10 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 **_3) Must edit readme.md file_** : [module 47-1] \
 [ DONE ] \
                     - give repo Name as title
-                    - put live website link in the description
+                    - put live website link in the description \
 **_4) in cart section there will be another button_** \
 [ DONE ] \
-                    - choose again : clicking this will clear the elements in the cart section 
+                    - choose again : clicking this will clear the elements in the cart section \
 **_5) add 3 questions answer as the foote of projects [maximum 10 line]_** \
 [ NOT DONE ] \
                     -How reacts work : [module 47-7] && [last conceptual session]
@@ -72,11 +72,11 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 
 
 
-#### [#] Optional requirements:
+### [#] Optional requirements:
 **_1) use any css frame work_** \
 [ DONE ] \
             -bs5 or
-            -tailwind
+            -tailwind \
 **_2) in cartSection generate a delete button for each elements and enable it_** \
 [ DONE ] \
 **_3) local storage activities_** \
