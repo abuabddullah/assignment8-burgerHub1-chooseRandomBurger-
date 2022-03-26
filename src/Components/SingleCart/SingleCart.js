@@ -17,7 +17,7 @@ const SingleCart = ({cart,removeFromCart}) => {
                 <h4>$</h4><strong>{price}</strong>
             </div>
             <div className="col-3">
-                <FaCalendarTimes onClick={() => removeFromCart(cart)}/>
+                <FaCalendarTimes onClick={() => removeFromCart(cart,"suggesst")}/>
             </div>
         </div>
     );
