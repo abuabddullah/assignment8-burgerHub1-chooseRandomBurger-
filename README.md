@@ -64,13 +64,13 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 [ DONE ] \
                     - choose again : clicking this will clear the elements in the cart section \
 **_5) add 3 questions answer as the foote of projects [maximum 10 line]_** \
-[ NOT DONE ] \
+[ DONE ] \
                     -**How reacts work : [module 47-7] && [last conceptual session]** \
-                    [ NOT DONE ] \
+                    [ DONE ] \
                     -**props vs state** \
-                    [ NOT DONE ] \
+                    [ DONE ] \
                     -**How use state works** : [module 47-4]
-                    [ NOT DONE ] 
+                    [ DONE ] 
                     
 
 
@@ -85,8 +85,8 @@ Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netli
 **_3) local storage activities_** \
 [ NOT DONE ] \
 **_4) summuraize of projects in the description of readme.md file_** \
-[ NOT DONE ] \
+[ DONE ] \
 **_5) double clicking on the same cart will give alert and wont re add item in the cart_** \
 [ DONE ] \
 **_6) in the cart more than 4 item is not allowed and will give alert in modal_** \
-[ NOT DONE ] \
+[ DONE ] \
